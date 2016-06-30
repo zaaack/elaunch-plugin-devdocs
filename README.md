@@ -25,7 +25,7 @@ module.exports = {
   plugins: {
     //... config for other plugins
     devdocs: {
-      script: `./node_modules/electron-plugin-devdocs/index.js`,
+      path: `./node_modules/electron-plugin-devdocs`,
       command: {
         doc: {}
       }
