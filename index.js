@@ -12,7 +12,7 @@ module.exports = {
     args = args.join(' ')
     event.sender.send('exec-reply', [{
       value: args,
-      custom_view: `<webview id="wv-devdocs" src="https://devdocs.io/#q=${args}" style="display:inline-flex;width: 100%;height:${globalConfig.max_height-globalConfig.height-5}px;"
+      custom_view: `<webview id="wv-devdocs" src="https://devdocs.io/#q=${args}" style="display:inline-flex;width: 100%;height:${globalConfig.max_height-globalConfig.height-10}px;"
        useragent="Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.76 Mobile Safari/537.36"></webview>`
     }])
   },
